@@ -1,0 +1,184 @@
+.cv-section {
+  margin-bottom: 2.5rem;
+}
+
+.cv-section-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #222;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3rem;
+  font-family: 'Georgia', serif;
+}
+
+.cv-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-bullet {
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  cursor: pointer;
+  padding-left: 0.2rem;
+  transition: background 0.15s;
+  position: relative;
+}
+
+.cv-bullet.selected {
+  background: #f7f7e6;
+  border-left: 3px solid #b89c3a;
+  padding-left: 0.7rem;
+}
+
+.cv-bullet-expansions {
+  margin-top: 0.5rem;
+  margin-left: 1.2rem;
+  padding-left: 1rem;
+  list-style: disc inside;
+  font-size: 0.98rem;
+  color: #444;
+}
+
+.cv-bullet-expansions li {
+  margin-bottom: 0.4rem;
+}
+
+.cv-skill-category {
+  margin-bottom: 1.1rem;
+}
+
+.cv-skill-category-title {
+  font-size: 1.08rem;
+  font-weight: bold;
+  color: #222;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.cv-skill-sublist {
+  margin-left: 1.3rem;
+  padding-left: 0.7rem;
+  list-style: disc inside;
+  color: #444;
+  font-size: 0.98rem;
+}
+
+.cv-skill-item {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.cv-role-block {
+  margin-bottom: 2.2rem;
+}
+
+.cv-role-header {
+  font-size: 1.08rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.cv-role-title {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.cv-role-points {
+  margin-left: 1.2rem;
+  padding-left: 0.7rem;
+  list-style: disc inside;
+}
+
+/* Mind map popup styles */
+.mindmap-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.18);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mindmap-popup {
+  position: relative;
+  background: #222;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+  min-width: 320px;
+  max-width: 90vw;
+  text-align: left;
+}
+
+.mindmap-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.mindmap-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.mindmap-option {
+  background: #333;
+  color: #ffd700;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  text-align: center;
+}
+.mindmap-option:hover {
+  background: #ffd700;
+  color: #222;
+}
+.mindmap-answer {
+  padding: 0.5rem 0;
+}
+.mindmap-option-label {
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 0.7rem;
+}
+.mindmap-option-answer {
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+.mindmap-back {
+  background: #ffd700;
+  color: #222;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.15s;
+}
+.mindmap-back:hover {
+  background: #b89c3a;
+  color: #fff;
+} 

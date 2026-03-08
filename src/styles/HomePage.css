@@ -1,0 +1,67 @@
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #fff;
+  border: 2px solid #222;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.cv-name {
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: #222;
+}
+
+.cv-contact-block {
+  font-size: 1.08rem;
+  color: #444;
+  margin-bottom: 2.2rem;
+  font-family: 'Georgia', serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.cv-contact-link {
+  color: #1a0dab;
+  text-decoration: underline;
+  margin: 0 0.2rem;
+}
+
+.cv-contact-link:hover {
+  color: #b89c3a;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 12px;
+  }
+  .cv-header {
+    margin-bottom: 1.2rem;
+  }
+  .cv-name {
+    font-size: 1.3rem;
+  }
+  .cv-contact-block {
+    font-size: 0.95rem;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+  color: #222;
+} 

@@ -1,0 +1,37 @@
+.mindmap-node {
+  position: fixed;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fffbe6;
+  border: 2px solid #e2c275;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  padding: 1.5rem 2rem 1rem 2rem;
+  z-index: 200;
+  min-width: 320px;
+  max-width: 90vw;
+}
+
+.mindmap-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #b89c3a;
+  cursor: pointer;
+}
+
+.mindmap-list {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0 0 0 1rem;
+}
+
+.mindmap-item {
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  color: #222;
+} 
